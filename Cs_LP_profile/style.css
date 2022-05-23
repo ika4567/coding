@@ -68,3 +68,17 @@ h1 {
   margin-right: 20px;
   border-radius: 50%;
 }
+
+.bi-contents {
+  width: 100%;
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.bi-content {
+  text-align: center;
+}
+
+.bi-content img {
+  width: 80%;
+}
