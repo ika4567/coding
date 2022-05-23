@@ -49,3 +49,22 @@ header .container {
   background-image: url(./img/mainvisual.jpg);
   background-size: cover;
 }
+
+h1 {
+  width: 105px;
+  margin: 70px auto;
+  border-bottom: 1px solid #000;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
