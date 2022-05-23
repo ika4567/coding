@@ -82,3 +82,12 @@ h1 {
 .bi-content img {
   width: 80%;
 }
+
+footer {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 5px;
+}
