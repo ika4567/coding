@@ -76,6 +76,7 @@ h1 {
 }
 
 .bi-content {
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -90,4 +91,20 @@ footer {
 
 footer p {
   font-size: 5px;
+}
+
+@media(max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .content, .bi-contents {
+    text-align: center;
+    display: block;
+  }
+  .about-image {
+    margin: 20px auto;
+  }
+  .about-prof {
+    text-align: left;
+  }
 }
