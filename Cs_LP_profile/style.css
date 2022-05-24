@@ -4,24 +4,23 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #383e45;
+}
+
 li {
   list-style: none;
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
   padding: 0 4%;
   margin: 0 auto;
-}
-
-header .container {
-  height: 70px;
-  display: flex;
+  text-align: center;
 }
 
 header .container {
@@ -39,12 +38,18 @@ header .container {
   line-height: 70px;
 }
 
-.right-head li {
+.right-head a {
+  color: #383e45;
   padding-left: 20px;
+}
+
+.right-head a:hover {
+  opacity: 0.7;
 }
 
 .main-visual {
   width: 100%;
+  max-width: 1920px;
   height: 600px;
   background-image: url(./img/mainvisual.jpg);
   background-size: cover;
@@ -53,7 +58,7 @@ header .container {
 h1 {
   width: 105px;
   margin: 70px auto;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #383e45;
 }
 
 .content {
