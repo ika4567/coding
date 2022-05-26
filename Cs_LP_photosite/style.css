@@ -8,7 +8,7 @@ body {
   background-color: #f4f9ff;
 }
 
-.main {
+.container {
   width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
@@ -22,4 +22,9 @@ header {
 
 .head-logo {
   width: 15%;
+}
+
+.main-visual img {
+  width: 100%;
+  max-width: 1000px;
 }
