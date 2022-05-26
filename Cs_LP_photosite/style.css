@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f9ff;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  margin-top: 60px;
+  height: 70px;
+  background-color: ;
+}
+
+.head-logo {
+  width: 15%;
+}
