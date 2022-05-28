@@ -26,10 +26,14 @@ header {
   margin-bottom: 10px;
 }
 
-.main-visual img {
+.main-visual {
+  width: 100%;
+}
+
+/* .main-visual img {
   width: 100%;
   /* max-width: 1000px; */
-}
+/* } */
 
 .section {
   margin-bottom: 60px;
@@ -96,4 +100,23 @@ footer {
 
 footer p {
   font-size: 0.3rem;
+}
+
+@media(max-width: 1024px) {
+  .content {
+    padding: 0 40px;
+  }
+
+  .book {
+    flex-direction: column;
+  }
+
+  .book-image {
+    width: 100%;
+  }
+
+  .book-right {
+    margin-top: 10px;
+    margin-left: 0;
+  }
 }
