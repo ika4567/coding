@@ -32,7 +32,7 @@ header {
 }
 
 .section {
-  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .index {
@@ -87,4 +87,13 @@ li {
   color: black;
   display: block;
   margin-top: 20px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+footer p {
+  font-size: 0.3rem;
 }
