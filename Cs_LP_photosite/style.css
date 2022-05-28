@@ -31,9 +31,12 @@ header {
   /* max-width: 1000px; */
 }
 
+.section {
+  margin-top: 60px;
+}
+
 .index {
   padding: 30px 0;
-  margin-top: 60px;
   background-color: #fff;
 }
 
@@ -52,4 +55,36 @@ ol {
 
 li {
   margin-bottom: 20px;
+}
+
+.book {
+  display: flex;
+}
+
+.book-image {
+  width: 280px;
+}
+
+.book-right {
+  margin-left: 50px;
+}
+
+.book-title {
+  margin-bottom: 30px;
+}
+
+.book-info {
+  padding: 15px 0;
+  border-top: 1px solid #c1c1c1c0;
+  border-bottom: 1px solid #c1c1c1c0;
+}
+
+.book-text {
+  margin-top: 30px;
+}
+
+.book-link {
+  color: black;
+  display: block;
+  margin-top: 20px;
 }
