@@ -16,6 +16,7 @@ main {
   width: 100%;
   height: 100vh;
   margin-bottom: 80px;
+  object-fit: cover;
 }
 
 .text {
@@ -34,8 +35,9 @@ main {
 }
 
 .recipe-img {
-  width: 34%;
+  width: calc(100%/3);
   height: 500px;
+  object-fit: cover;
 }
 
 .btn {
