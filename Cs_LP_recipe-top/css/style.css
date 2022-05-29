@@ -37,3 +37,17 @@ main {
   width: 34%;
   height: 500px;
 }
+
+.btn {
+  width: 250px;
+  line-height: 65px;
+  margin: 0 auto 50px;
+  border: 1px solid #000;
+}
+
+.btn a {
+  font-size: 0.9rem;
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
