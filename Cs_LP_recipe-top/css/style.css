@@ -25,3 +25,15 @@ main {
 .title {
   margin-bottom: 20px;
 }
+
+.recipe-images {
+  max-width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-img {
+  width: 34%;
+  height: 500px;
+}
