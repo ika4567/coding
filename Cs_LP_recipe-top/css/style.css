@@ -41,13 +41,32 @@ main {
 .btn {
   width: 250px;
   line-height: 65px;
-  margin: 0 auto 50px;
+  margin: 0 auto 80px;
   border: 1px solid #000;
 }
 
 .btn a {
   font-size: 0.9rem;
-  color: #000;
   text-decoration: none;
   display: block;
+}
+
+a {
+  color: #000;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.sns {
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.sns li {
+  padding: 0 10px;
 }
