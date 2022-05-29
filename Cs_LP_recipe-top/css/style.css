@@ -70,3 +70,12 @@ footer {
 .sns li {
   padding: 0 10px;
 }
+
+@media(max-width: 834px){
+  .recipe-images {
+    flex-direction: column;
+  }
+  .recipe-img {
+    width: 100%;
+  }
+}
