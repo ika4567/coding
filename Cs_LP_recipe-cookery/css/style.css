@@ -95,3 +95,13 @@ footer {
 .sns li {
   padding: 0 10px;
 }
+
+@media(max-width: 834px){
+  main {
+    display: block;
+  }
+
+  .image, .recipe {
+    width: 100%;
+  }
+}
