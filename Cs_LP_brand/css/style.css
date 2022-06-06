@@ -15,12 +15,12 @@ img {
 
 body {
   color: black;
-  font-family: "Crimson Text";
+  font-family: "Crimson Text",serif;
 }
 
 header {
   width: 90vw;
-  margin: 25px auto 0;
+  margin: 25px auto 60px;
   display: flex;
 }
 
@@ -43,4 +43,38 @@ a {
 .nav-list li {
   font-size: 0.7em;
   margin-right: 33px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 0 3%;
+}
+
+#concept {
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.con-leght {
+  width: 50%;
+}
+
+.con-right {
+  width: 50%;
+  padding: 0 7%;
+}
+
+.section-title {
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+.section-title-en {
+  padding-bottom: 20px;
+  font-size: 0.8em;
 }
