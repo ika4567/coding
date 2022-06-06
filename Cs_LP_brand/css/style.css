@@ -10,5 +10,37 @@ img {
 
 .main-visual {
   width: 90vw;
-  margin: 60px auto;
+  margin: 60px auto 0;
+}
+
+body {
+  color: black;
+  font-family: "Crimson Text";
+}
+
+header {
+  width: 90vw;
+  margin: 25px auto 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-logo {
+  width: 110px;
+  margin-right: 50px;
+  line-height: 1px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  font-size: 0.7em;
+  margin-right: 33px;
 }
