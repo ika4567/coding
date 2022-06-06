@@ -79,6 +79,10 @@ main {
   font-size: 0.8em;
 }
 
+#work {
+  flex-direction: row-reverse;
+}
+
 footer {
   max-width: 1000px;
   margin: 0 auto 20px;
