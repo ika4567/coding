@@ -94,3 +94,20 @@ footer {
 footer p {
   font-size: 0.75em;
 }
+
+@media(max-width: 767px) {
+  .main-visual {
+    width: 100%;
+    margin: 0;
+  }
+  #concept, #work {
+    display: block;
+  }
+  .con-leght, .work-right {
+    width: 100%;
+  }
+  .con-right, .work-leght {
+    width: 100%;
+    padding: 0;
+  }
+}
