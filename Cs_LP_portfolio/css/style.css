@@ -81,9 +81,6 @@ section {
 
 .wo-image {
   width: 30%;
-}
-
-.wo-image:nth-child(-n+3) {
   padding-bottom: 20px;
 }
 
@@ -145,4 +142,32 @@ footer p {
   line-height: 30px;
   font-size: 0.5em;
   text-align: center;
+}
+
+@media(max-width: 600px){
+  header{
+    height: 80px;
+    display: block;
+  }
+
+  .logo {
+    margin: 20px auto 0;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .images {
+    display: block;
+  }
+
+  .wo-image {
+    width: 100%;
+  }
+
+  .news {
+    width: 100%;
+    display: inline-block;
+  }
 }
