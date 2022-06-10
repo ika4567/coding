@@ -124,3 +124,25 @@ input, textarea {
 textarea {
   padding: 50px;
 }
+
+.btn {
+  text-align: center;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #24292e;
+}
+
+footer {
+  height: 30px;
+  color: #fff;
+  background-color: #24292e;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 0.5em;
+  text-align: center;
+}
